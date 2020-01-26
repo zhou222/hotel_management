@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>searchRoom</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.jnu.servlet.searchRoom</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>regServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.jnu.servlet.regServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>outRoomServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.jnu.servlet.outRoomServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>workManageServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.jnu.servlet.workManageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>userRecordServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.jnu.servlet.userRecordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.jnu.servlet.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>deleteRoomServlet</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.jnu.servlet.deleteRoomServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>searchRoom</servlet-name>
+    <url-pattern>/servlet/searchRoom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>regServlet</servlet-name>
+    <url-pattern>/servlet/regServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>outRoomServlet</servlet-name>
+    <url-pattern>/servlet/outRoomServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>workManageServlet</servlet-name>
+    <url-pattern>/servlet/workManageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userRecordServlet</servlet-name>
+    <url-pattern>/servlet/userRecordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/servlet/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteRoomServlet</servlet-name>
+    <url-pattern>/servlet/deleteRoomServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
